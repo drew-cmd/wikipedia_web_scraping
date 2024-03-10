@@ -16,11 +16,11 @@ Python (includes database reading and writing component with built-in SQLite).
 
 ## Expanding the project:
 
-Plan to expand this project by incorporating the ChatGPT API (or possibly any other AI API available) to send Wikipedia links after some validation and display a returned summarization of the content to users.
+Plan to expand this project by incorporating an AI model API to send Wikipedia links after some validation and display a returned summarization of the content to users.
 
 Baked into the project was an option to return internal Wiki link summaries which referred to returning summaries of internal Wikipedia links of the queried page. These are planned to be displayed a expandable drop-down menus where they are collapsed by default when returned.
 
-Had thoughts of again utilizing the ChatGPT API to give points to the internal Wiki links from 1-10 regarding their relevance to the queried Wiki page. These would then determine, based on a certain threshold (e.g. >5), internal pages would be summarized by ChatGPT to be returned and displayed to the user.
+Had thoughts of again utilizing the AI model API to give points to the internal Wiki links from 1-10 regarding their relevance to the queried Wiki page. These would then determine, based on a certain threshold (e.g. >5), internal pages would be summarized by the AI model to be returned and displayed to the user.
 
 These related Wikis could be stored in the database with indications of their relevance to other Wiki pages.
 

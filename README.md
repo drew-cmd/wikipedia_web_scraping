@@ -2,7 +2,7 @@
 
 Webscrapes user inputted Wikipedia articles, returns content, and saves content to a database for faster future retrieval.
 
-Locally hosted website to take in user input (in this case Wikipedia URLs) and send the request to a server whereby content from the Wiki page was returned. 
+Locally hosted website to take in user input (in this case Wikipedia URLs) and send the request to a server whereby content from the Wiki page is returned. 
 
 Server operations included some URL validation, checking for already existing content in a database (searched by Wiki page name), website web scraping and formatting via BeautifulSoup, saving content to a database, and returning the content to be displayed to the user on the webpage.
 
